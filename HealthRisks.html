@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sugar Texts</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        position: relative; 
+      }
+      #header{padding:50px;height:auto;color:#fff;background-color:blueviolet;text-align:center;}
+      #section1 {padding-top:100px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section2 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section3 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section4 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section5 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section6 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section7 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section8 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section9 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section10 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section11 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section12 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section13 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section14 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section15 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section16 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section17 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section18 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section19 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section20 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section21 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section22 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section23 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section24 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section25 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section26 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section27 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section28 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section29 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section30 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section31 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section32 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section33 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section34 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section35 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section36 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section37 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section38 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section39 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section40 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section41 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section42 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section43 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section44 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section45 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section46 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section47 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section48 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section49 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section50 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section51 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section52 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section53 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section54 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section55 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section56 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section57 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section58 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section59 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section60 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section61 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section62 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section63 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section64 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section65 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section66 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section67 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section68 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section69 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section70 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section71 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section72 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section73 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section74 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section75 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section76 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section77 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section78 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section79 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section80 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section81 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section82 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section83 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section84 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section85 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section86 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section87 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section88 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section89 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section90 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      #section91 {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+      #section92 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+      #section93 {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+      
+      footer
+      {
+        display: table;
+        width: 100%;
+        line-height: 50px;
+        position: relative;
+        background: black;
+        color:white;
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+      }
+      
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="Main.html">Sugar Texts</a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="HealthRisks.html">Health Risks</a></li>
+              <li><a href="HAC.html">History and Culture</a></li>
+              <li><a href="SugarScience.html">Sugar Science</a></li>
+              <li><a href="FoodFacts.html">Food Facts</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="header" class="container-fluid">
+      <h1><u>Health Risks</u></h1>
+    </div>
+    
+    <div id="section1" class="container-fluid">
+      <p>Too much sugar can increase the overall risk for heart disease. In fact, sugar actually changes the muscle protein of the heart as well as the pumping mechanics of the heart.</p>
+    </div>
+
+    <div id="section2" class="container-fluid">
+      <p>Excess sugar consumption has been linked to cancer production. Studies have found that high sugar intake negatively affects the survival rates in both breast cancer patients and colon cancer patients.</p>
+    </div>
+
+    <div id="section3" class="container-fluid">
+      <p>Sugar and alcohol have similar toxic liver effects. Additionally, liver damage can occur even without excess calories or weight gain.</p>
+    </div>
+
+    <div id="section4" class="container-fluid">
+      <p>A 2009 study found that glucose consumption accelerated the aging of cells in the body.</p>
+    </div>
+
+    <div id="section5" class="container-fluid">
+      <p>A 2012 study found that excess sugar consumption was tied to deficiencies in memory and overall cognitive processing.</p>
+    </div>
+
+    <div id="section6" class="container-fluid">
+      <p>A 2013 study found that at least 180,000 deaths worldwide are linked to sweetened-beverage consumption. The U.S. alone accounted for 25,000 deaths in 2010.</p>
+    </div>
+
+    <div id="section7" class="container-fluid">
+      <p>While foods rich in fiber, fat, and protein help make a person feel full, sugar does not create feelings of satiety.</p>
+    </div>
+
+    <div id="section8" class="container-fluid">
+      <p>Sugary drinks are thought to cause around 200,000 deaths a year</p>
+    </div>
+
+    <div id="section9" class="container-fluid">
+      <p>Sugar can suppress your immune system.</p>
+    </div>
+
+    <div id="section10" class="container-fluid">
+      <p>Sugar upsets the mineral relationships in the body.</p>
+    </div>
+
+    <div id="section11" class="container-fluid">
+      <p>Sugar can cause juvenile delinquency in children.</p>
+    </div>
+    
+    <div id="section12" class="container-fluid">
+      <p>Sugar eaten during pregnancy and lactation can influence muscle force production in offspring, which can affect an individual’s ability to exercise.</p>
+    </div>
+    
+    <div id="section13" class="container-fluid">
+      <p>Sugar in soda, when consumed by children, results in the children drinking less milk.</p>
+    </div>
+    
+    <div id="section14" class="container-fluid">
+      <p>Sugar can elevate glucose and insulin responses and return them to fasting levels slower in oral contraceptive users.</p>
+    </div>
+    
+    <div id="section15" class="container-fluid">
+      <p>Sugar can increase reactive oxygen species (ROS), which can damage cells and tissues.</p>
+    </div>
+    
+    <div id="section16" class="container-fluid">
+      <p>Sugar can cause hyperactivity, anxiety, inability to concentrate and crankiness in children.</p>
+    </div>
+    
+    <div id="section17" class="container-fluid">
+      <p>Sugar can produce a significant rise in triglycerides.</p>
+    </div>
+    
+    <div id="section18" class="container-fluid">
+      <p>Sugar reduces the body’s ability to defend against bacterial infection.</p>
+    </div>
+    
+    <div id="section19" class="container-fluid">
+      <p>Sugar causes a decline in tissue elasticity and function – the more sugar you eat, the more elasticity and function you lose.</p>
+    </div>
+    
+    <div id="section20" class="container-fluid">
+      <p>Sugar reduces high-density lipoproteins (HDL).</p>
+    </div>
+    
+    <div id="section21" class="container-fluid">
+      <p> Sugar can lead to chromium deficiency.</p>
+    </div>
+    
+    <div id="section22" class="container-fluid">
+      <p>Sugar can lead to ovarian cancer.</p>
+    </div>
+    
+    <div id="section23" class="container-fluid">
+      <p>Sugar can increase fasting levels of glucose.</p>
+    </div>
+    
+    <div id="section24" class="container-fluid">
+      <p>Sugar causes copper deficiency.</p>
+    </div>
+    
+    <div id="section25" class="container-fluid">
+      <p>Sugar interferes with the body’s absorption of calcium and magnesium.</p>
+    </div>
+    
+    <div id="section26" class="container-fluid">
+      <p>Sugar may make eyes more vulnerable to age-related macular degeneration.</p>
+    </div>
+    
+    <div id="section27" class="container-fluid">
+      <p>Sugar can cause hypoglycemia.</p>
+    </div>
+    
+    <div id="section28" class="container-fluid">
+      <p>Sugar can lead to an acidic digestive tract.</p>
+    </div>
+    
+    <div id="section29" class="container-fluid">
+      <p>Sugar can cause a rapid rise of adrenaline levels in children.</p>
+    </div>
+    
+    <div id="section30" class="container-fluid">
+      <p>Sugar is frequently malabsorbed in patients with functional bowel disease.</p>
+    </div>
+    
+    <div id="section31" class="container-fluid">
+      <p>Sugar can cause premature aging.</p>
+    </div>
+    
+    <div id="section32" class="container-fluid">
+      <p>Sugar can lead to alcoholism.</p>
+    </div>
+    
+    <div id="section33" class="container-fluid">
+      <p>Sugar can cause tooth decay.</p>
+    </div>
+    
+    <div id="section34" class="container-fluid">
+      <p>Sugar can lead to obesity.</p>
+    </div>
+    
+    <div id="section35" class="container-fluid">
+      <p>Sugar increases the risk of Crohn’s disease and ulcerative colitis.</p>
+    </div>
+    
+    <div id="section36" class="container-fluid">
+      <p> Sugar can cause gastric or duodenal ulcers.</p>
+    </div>
+    
+    <div id="section37" class="container-fluid">
+      <p>Sugar can cause arthritis.</p>
+    </div>
+    
+    <div id="section38" class="container-fluid">
+      <p>Sugar can cause learning disorders in school children.</p>
+    </div>
+    
+    <div id="section39" class="container-fluid">
+      <p>Sugar assists the uncontrolled growth of Candida Albicans (yeast infections).</p>
+    </div>
+    
+    <div id="section40" class="container-fluid">
+      <p>Sugar can cause gallstones.</p>
+    </div>
+    
+    <div id="section41" class="container-fluid">
+      <p> Sugar can cause heart disease.</p>
+    </div>
+    
+    <div id="section42" class="container-fluid">
+      <p>Sugar can cause appendicitis.</p>
+    </div>
+    
+    <div id="section43" class="container-fluid">
+      <p>Sugar can cause hemorrhoids.</p>
+    </div>
+    
+    <div id="section44" class="container-fluid">
+      <p>Sugar can cause varicose veins.</p>
+    </div>
+    
+    <div id="section45" class="container-fluid">
+      <p>Sugar can lead to periodontal disease.</p>
+    </div>
+    
+    <div id="section46" class="container-fluid">
+      <p>Sugar can contribute to osteoporosis.</p>
+    </div>
+    
+    <div id="section47" class="container-fluid">
+      <p>Sugar contributes to saliva acidity.</p>
+    </div>
+    
+    <div id="section48" class="container-fluid">
+      <p>Sugar can cause a decrease in insulin sensitivity.</p>
+    </div>
+    
+    <div id="section49" class="container-fluid">
+      <p>Sugar can lower the amount of Vitamin E in the blood.</p>
+    </div>
+    
+    <div id="section50" class="container-fluid">
+      <p>Sugar can decrease the amount of growth hormones in the body.</p>
+    </div>
+    
+    <div id="section51" class="container-fluid">
+      <p>Sugar can increase cholesterol.</p>
+    </div>
+    
+    <div id="section52" class="container-fluid">
+      <p>Sugar increases advanced glycation end products (AGEs), which form when sugar binds non-enzymatically to protein.</p>
+    </div>
+    
+    <div id="section53" class="container-fluid">
+      <p>Sugar can interfere with the absorption of protein.</p>
+    </div>
+    
+    <div id="section54" class="container-fluid">
+      <p>Sugar causes food allergies.</p>
+    </div>
+    
+    <div id="section55" class="container-fluid">
+      <p>Sugar can contribute to diabetes.</p>
+    </div>
+    
+    <div id="section56" class="container-fluid">
+      <p>Sugar can cause toxemia during pregnancy.</p>
+    </div>
+    
+    <div id="section57" class="container-fluid">
+      <p>Sugar can lead to eczema in children.</p>
+    </div>
+    
+    <div id="section58" class="container-fluid">
+      <p>Sugar can cause cardiovascular disease.</p>
+    </div>
+    
+    <div id="section59" class="container-fluid">
+      <p>Sugar can impair the structure of DNA.</p>
+    </div>
+    
+    <div id="section60" class="container-fluid">
+      <p>Sugar can change the structure of protein.</p>
+    </div>
+    
+    <div id="section61" class="container-fluid">
+      <p>Sugar can make the skin wrinkle by changing the structure of collagen.</p>
+    </div>
+    
+    <div id="section62" class="container-fluid">
+      <p>Sugar can cause cataracts.</p>
+    </div>
+    
+    <div id="section63" class="container-fluid">
+      <p>Sugar can cause emphysema.</p>
+    </div>
+    
+    <div id="section64" class="container-fluid">
+      <p>Sugar can cause atherosclerosis.</p>
+    </div>
+    
+    <div id="section65" class="container-fluid">
+      <p>Sugar can promote an elevation of low-density lipoproteins (LDL).</p>
+    </div>
+    
+    <div id="section66" class="container-fluid">
+      <p>Sugar can impair the physiological homeostasis of many systems in the body.</p>
+    </div>
+    
+    <div id="section67" class="container-fluid">
+      <p>Sugar lowers enzymes ability to function.</p>
+    </div>
+    
+    <div id="section68" class="container-fluid">
+      <p>Sugar intake is associated with the development of Parkinson’s disease.</p>
+    </div>
+    
+    <div id="section69" class="container-fluid">
+      <p>Sugar can increase the size of the liver by making the liver cells divide.</p>
+    </div>
+    
+    <div id="section70" class="container-fluid">
+      <p>Sugar can increase the amount of liver fat.</p>
+    </div>
+    
+    <div id="section71" class="container-fluid">
+      <p>Sugar can increase kidney size and produce pathological changes in the kidney.</p>
+    </div>
+    
+    <div id="section72" class="container-fluid">
+      <p>Sugar can damage the pancreas.</p>
+    </div>
+    
+    <div id="section73" class="container-fluid">
+      <p>Sugar can increase the body’s fluid retention.</p>
+    </div>
+    
+    <div id="section74" class="container-fluid">
+      <p>Sugar is the number one enemy of the bowel movement.</p>
+    </div>
+    
+    <div id="section75" class="container-fluid">
+      <p>Sugar can cause myopia (nearsightedness).</p>
+    </div>
+    
+    <div id="section76" class="container-fluid">
+      <p>Sugar can compromise the lining of the capillaries.</p>
+    </div>
+    
+    <div id="section77" class="container-fluid">
+      <p>Sugar can make tendons more brittle.</p>
+    </div>
+    
+    <div id="section78" class="container-fluid">
+      <p>Sugar can cause headaches, including migraines.</p>
+    </div>
+    
+    <div id="section79" class="container-fluid">
+      <p>Sugar plays a role in pancreatic cancer in women.</p>
+    </div>
+    
+    <div id="section80" class="container-fluid">
+      <p>Sugar can adversely affect children’s grades in school.</p>
+    </div>
+    
+    <div id="section81" class="container-fluid">
+      <p>Sugar can cause depression.</p>
+    </div>
+    
+    <div id="section82" class="container-fluid">
+      <p>Sugar increases the risk of gastric cancer.</p>
+    </div>
+    
+    <div id="section83" class="container-fluid">
+      <p>Sugar can cause dyspepsia (indigestion).</p>
+    </div>
+    
+    <div id="section84" class="container-fluid">
+      <p>Sugar can increase the risk of developing gout.</p>
+    </div>
+    
+    <div id="section85" class="container-fluid">
+      <p>Sugar can increase the levels of glucose in the blood much higher than complex carbohydrates in a glucose tolerance test can.</p>
+    </div>
+    
+    <div id="section86" class="container-fluid">
+      <p>Sugar reduces learning capacity.</p>
+    </div>
+    
+    <div id="section87" class="container-fluid">
+      <p>Sugar can cause two blood proteins – albumin and lipoproteins – to function less effectively, which may reduce the body’s ability to handle fat and cholesterol.</p>
+    </div>
+    
+    <div id="section88" class="container-fluid">
+      <p>Sugar can contribute to Alzheimer’s disease.</p>
+    </div>
+    
+    <div id="section89" class="container-fluid">
+      <p>Sugar can cause platelet adhesiveness, which causes blood clots.</p>
+    </div>
+    
+    <div id="section90" class="container-fluid">
+      <p>Sugar can cause hormonal imbalance – some hormones become underactive and others become overactive.</p>
+    </div>
+    
+    <div id="section91" class="container-fluid">
+      <p>Sugar can lead to the formation of kidney stones.</p>
+    </div>
+    
+    <div id="section92" class="container-fluid">
+      <p>Sugar can cause free radicals and oxidative stress.</p>
+    </div>
+    
+    <div id="section93" class="container-fluid">
+      <p>Sugar can lead to biliary tract cancer.</p>
+    </div>
+    
+    <footer>Sugar Texts&#169</footer>
+    
+  </body>
+</html>
